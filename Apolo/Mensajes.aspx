@@ -38,7 +38,7 @@
                         <asp:BoundField HeaderText="Id" DataField="Id" HeaderStyle-CssClass="oculto" ItemStyle-CssClass="oculto" />
                         <asp:BoundField HeaderText="Nombre" DataField="Nombre" />
                         <asp:BoundField HeaderText="Mail" DataField="Mail" />
-                        <asp:CommandField HeaderText="Accion" ShowSelectButton="true" SelectText="Seleccionar" />
+                        <asp:CommandField HeaderText="Acción" ShowSelectButton="true" SelectText="Seleccionar" />
                     </Columns>
                 </asp:GridView>
             </div>

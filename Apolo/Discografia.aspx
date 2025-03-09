@@ -13,6 +13,7 @@
 
         .divi {
             margin: 40px 0px;
+             text-align: center;
         }
 
          @media (max-width: 991px) {
@@ -26,10 +27,6 @@
                 width: 70vw;
             }
 
-             h3 {
-                font-size: 43px;
-                text-align: center;
-            }
          }
 
     </style>
