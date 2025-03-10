@@ -13,6 +13,11 @@
             color: whitesmoke;
         }
 
+        #logo {
+            background-color: black;
+            padding: 6px 5px 11px 5px;
+        }
+
         @media screen and (max-width: 991px) {
             #lista {
                 font-size: 40px;
@@ -21,7 +26,7 @@
 
             #logo {
                 font-size: 43px;
-                padding: 18px 13px 23px; 
+                padding: 18px 13px 23px;
                 background-color: black;
             }
 
@@ -39,12 +44,15 @@
             .paddingNav {
                 padding: 19px 19px 16px;
             }
+
             .mediaFooter {
-                font-size: 34px!important;
+                font-size: 34px !important;
             }
+
             .mediaFooterPe {
                 font-size: 22px;
             }
+
             .textoFinal {
                 font-size: 23px;
             }
@@ -59,7 +67,7 @@
 
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-xl-3 paddingNav">
             <div class="container-fluid ">
-                <a class="navbar-brand" href="#" id="logo" >Apolo Rock</a>
+                <a class="navbar-brand" href="#" id="logo">Apolo Rock</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon boton"></span>
                 </button>
@@ -89,7 +97,8 @@
                         <%if (Negocio.Seguridad.sesionActiva(Session["usuario"]))
                             { %>
                         <div>
-                            <asp:Button Text="Salir" runat="server" CssClass="btn btn-danger botonSalir" Style="height: 37px;" OnClick="btnSalir_Click" /></div>
+                            <asp:Button Text="Salir" runat="server" CssClass="btn btn-danger botonSalir" Style="height: 37px;" OnClick="btnSalir_Click" />
+                        </div>
                         <% } %>
 
                         <div><a class="btn btn-dark botonSalir" style="background-color: black;" href="Admin.aspx">Admin</a></div>

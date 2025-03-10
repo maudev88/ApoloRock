@@ -44,7 +44,7 @@
     <h1 style="margin: 45px 0px; text-align: center;">Galería de Guitarras</h1>
 
 
-    <div class="d-flex justify-content-around primeras3"  style="width: 100vw; margin-bottom: 50px;">
+    <div class="d-flex justify-content-around primeras3"  style="margin-bottom: 50px;">
 
         <div class="card tarje" style="width: 18rem;">
             <img src="Imagenes/14.jpg" class="card-img-top" alt="...">
@@ -69,7 +69,7 @@
 
     </div>
 
-    <div class="d-flex justify-content-around primeras3" style="width: 100vw;">
+    <div class="d-flex justify-content-around primeras3" >
         <div class="card tarje" style="width: 18rem;">
             <img src="Imagenes/17.jpg" class="card-img-top" alt="...">
             <div class="card-body">

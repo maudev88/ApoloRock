@@ -54,7 +54,7 @@
 
     <h1>Login de Administrador</h1>
 
-    <div class="row d-flex justify-content-center">
+    <div class=" d-flex justify-content-center">
         <div class="col-4 divP">
             <div class="contenedorInputs">
                 <asp:Label Text="Usuario" CssClass="form-label" runat="server" />
